@@ -23,7 +23,7 @@
   
   
   .header {
-    max-width: 101%;
+    max-width: 100%;
     /* REMOVE THIS IN CASE OF ANY FUTURE PROBLEMS */
     position: relative;
     height: 100vh;
