@@ -1,0 +1,149 @@
+/* ------------------------------- BELOW IS THE FOOTER ------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+footer {
+    position: relative;
+    width: 101%;
+    background: black;
+    color: rgb(180, 180, 180);
+    ;
+    min-height: 32vh;
+    padding: 20px 50px;
+    /*   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.footer {
+    margin-top: 75px;
+}
+
+.social_icon {
+    position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social_icon li {
+    list-style: none;
+}
+
+.social_icon li a {
+    font-size: 2em;
+    color: rgb(180, 180, 180);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#twitter:hover {
+    color: #1DA1F2;
+}
+
+#discord:hover {
+    color: #7289da;
+}
+
+#instagram:hover {
+    color: #E1306C;
+}
+
+#youtube:hover {
+    color: #FF0000;
+}
+
+.footer .copyright {
+    color: rgb(180, 180, 180);
+    max-width: 40%;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.top {
+    float: right;
+    color: rgb(180, 180, 180);
+    transition: all 0.5s ease;
+    scroll-behavior: smooth;
+}
+
+.top-mobile {
+    display: none;
+}
+
+.top:hover {
+    color: #ad0404;
+    transform: translateY(-10px);
+}
+
+.logos {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: right;
+}
+
+.logos li {
+    list-style: none;
+}
+
+.logos li a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+#FORD,
+#MANA {
+    transition: all 0.5s ease;
+}
+
+#FORD:hover,
+#MANA:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 500px) {
+    .top {
+        display: none;
+    }
+
+    .top-mobile {
+        display: flex;
+        float: right;
+        color: rgb(180, 180, 180);
+        transition: all 0.5s ease;
+        scroll-behavior: smooth;
+    }
+
+    .footer .copyright {
+        max-width: 100%;
+    }
+
+    .info {
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .info .down {
+        margin: 5px 10px;
+    }
+
+    .logos {
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+}
