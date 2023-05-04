@@ -6,11 +6,11 @@ html {
 }
 
 footer {
+    margin-top: 80px;
     position: relative;
     width: 101%;
     background: black;
     color: rgb(180, 180, 180);
-    ;
     min-height: 32vh;
     padding: 20px 50px;
     /*   display: flex;
