@@ -56,48 +56,48 @@ html {
 }
 
 
-.gallery{
+.gallery {
     padding-top: 3%;
     width: 50%;
     padding-left: 100px;
 }
 
-.gallery-head h2{
+.gallery-head h2 {
     font-size: 48px;
-
 }
-.gallery-head h3{
+
+.gallery-head h3 {
     color: darkorange;
     font-size: 22px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.gallery-head p{
+
+.gallery-head p {
     padding-top: 16px;
     padding-bottom: 16px;
 }
 
-.gallery ul{
-
+.gallery ul {
     padding-top: 2%;
     list-style: none;
     border: #fff;
-
 }
 
-.gallery a{
+.gallery a {
     color: black;
-
 }
-.gallery a:hover{
+
+.gallery a:hover {
     color: red;
     transition: 0.5s;
 }
-.arrow{
+
+.arrow {
     border: solid darkorange;
     border-width: 0 3px 3px 0;
     display: inline-block;
-    padding:3px;
+    padding: 3px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }

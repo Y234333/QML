@@ -57,31 +57,31 @@ html {
 
 
 .headergallery {
-    padding: 50px 10px 0px 100px  ;
-    
+    padding: 50px 10px 0px 100px;
 }
-.headergallery h2{
+
+.headergallery h2 {
     font-size: 48px;
 }
-.headergallery h3{
+
+.headergallery h3 {
     font-size: 28px;
     color: orange;
     padding-top: 10;
 }
-.gallery-images{
+
+.gallery-images {
     align-items: center;
     width: 100%;
     min-height: 100vh;
     padding: 20px 5%;
-    display:flex;
+    display: flex;
     justify-content: center;
-    display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
 }
-  
-.gallery-images img {
-    width:100%;
 
+.gallery-images img {
+    width: 100%;
 }
-  
