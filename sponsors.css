@@ -310,3 +310,16 @@ html {
         z-index: 4;
     }
 }
+
+
+@media screen and (max-width: 900px) {
+    .title h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .title h1 {
+        font-size: 35px;
+    }
+}

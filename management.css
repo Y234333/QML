@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica;
+    /* CHANGE THE FONT BECAUSE ITS SHIT */
+}
+
+html {
+    width: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.header2 {
+    min-height: 80vh;
+    width: 100.5%;
+    background-image: url('https://cdn.discordapp.com/attachments/1090207758411898941/1090211459650297907/ford-shelby-mustang-4k-wallpaper-preview.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+    text-shadow: 3px 3px 3px rgb(71, 71, 71);
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.text-box h1::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* BELOW IS TEAM */
+
+.team {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0;
+    width: 100%;
+    background: white;
+}
+
+.tcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tcontainer .tcard {
+    width: 330px;
+    height: 416px;
+    padding: 60px 30px;
+    margin: 20px;
+    background: #f2f3f7;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+        -0.5em -0.5em 1em #ffffff;
+    border-radius: 20px;
+}
+
+.tcontainer .tcard .tcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tcontainer .tcard .tcontent .imgBx {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.tcontainer .tcard .tcontent .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tcontainer .tcard .tcontent .tcontentBx h4 {
+    color: #36187d;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.tcontainer .tcard .tcontent .tcontentBx h5 {
+    color: #6c758f;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tcontainer .tcard .tcontent .sci {
+    margin-top: 20px;
+}
+
+.tcontainer .tcard .tcontent .sci a {
+    text-decoration: none;
+    color: #6c758f;
+    font-size: 30px;
+    margin: 10px;
+    transition: color 0.4s;
+}
+
+.tcontainer .tcard .tcontent .sci a:hover {
+    color: #0196e3;
+}
