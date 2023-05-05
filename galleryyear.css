@@ -56,48 +56,32 @@ html {
 }
 
 
-.gallery{
-    padding-top: 3%;
-    width: 50%;
-    padding-left: 100px;
+.headergallery {
+    padding: 50px 10px 0px 100px  ;
+    
 }
-
-.gallery-head h2{
+.headergallery h2{
     font-size: 48px;
+}
+.headergallery h3{
+    font-size: 28px;
+    color: orange;
+    padding-top: 10;
+}
+.gallery-images{
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 5%;
+    display:flex;
+    justify-content: center;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 30px;
+}
+  
+.gallery-images img {
+    width:100%;
 
 }
-.gallery-head h3{
-    color: darkorange;
-    font-size: 22px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.gallery-head p{
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-.gallery ul{
-
-    padding-top: 2%;
-    list-style: none;
-    border: #fff;
-
-}
-
-.gallery a{
-    color: black;
-
-}
-.gallery a:hover{
-    color: red;
-    transition: 0.5s;
-}
-.arrow{
-    border: solid darkorange;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding:3px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-}
+  
