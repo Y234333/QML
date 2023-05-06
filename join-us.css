@@ -13,3 +13,153 @@ html {
     overflow-x: hidden;
 }
 
+.header2 {
+    min-height: 80vh;
+    width: 100.5%;
+    background-image: url('https://cdn.discordapp.com/attachments/1090207758411898941/1090211459650297907/ford-shelby-mustang-4k-wallpaper-preview.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+    text-shadow: 3px 3px 3px rgb(71, 71, 71);
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.text-box h1::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.join-us {
+    margin: 5%;
+}
+.container-2 h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.container-2 p{
+    max-width: 60%;
+}
+.container {
+    float: right;
+}
+.container ul {
+    margin: 60px 0;
+    list-style: none;
+    display: flex;
+    padding-right: 100px;
+    flex-grow: 1;
+}
+.container li {
+    text-align: center;
+    padding: 0 30px;
+    max-width: 300px;
+}
+.container a{
+    color: black;
+}
+
+.logo-text{
+    font-size: 24px;
+}
+#ig {
+    font-size: 100px;
+}
+#ig:hover {
+    color: red;
+    transition: 0.5s;
+}
+#whatsapp {
+    font-size: 100px;
+}
+
+#whatsapp:hover {
+    color: green;
+    transition: 0.5s;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 1000px) {
+    .join-us {
+        margin: 5%;
+    }
+    
+    .container {
+        float: none;
+        text-align: center;
+    }
+    
+    .container ul {
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+    }
+    
+    .container li {
+        text-align: center;
+        padding: 0;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+    
+    .container a {
+        display: inline-block;
+        color: black;
+    }
+    
+    #ig {
+        font-size: 60px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #whatsapp {
+        font-size: 60px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .logo-text {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .container-2 h2 {
+        font-size: 24px;
+        text-align: center;
+        padding-top: 30px;
+        font-family: Helvetica;
+    }
+    
+    .container-2 p {
+        max-width: 100%;
+        text-align: center;
+    }
+}
