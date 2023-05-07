@@ -45,15 +45,15 @@ html {
   transform: translate(-50%, -50%);
 }
 
-/* #videoBG {
-    position: absolute;
-    z-index: -2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } */
+ #videoBG {
+   position: absolute;
+   z-index: -2;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
 
-/* @media(max-width: 767px){                         JUST IN CASE IT GETS TOO LAGGY FOR PHONE, USE THIS!
+/* @media(max-width: 767px){           
       #videoBG{
           display: none;
       }
@@ -61,7 +61,7 @@ html {
           background: url('https://cdn.discordapp.com/attachments/995796910537457735/996529772760928326/poster.png');
           background-size: cover;
       }
-  } */
+} */
 
 .text-box {
   width: 90%;
@@ -241,7 +241,6 @@ html {
   }
   .hero-btn{
     outline: 4px solid #ebe6b6;
-    outline-offset: -5px;
     border: 3px solid #ebe6b6;
     background: #ebe6b6;
     color: black;
