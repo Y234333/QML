@@ -101,3 +101,11 @@ html {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
+@media screen and (max-width: 1000px) {
+    .gallery {
+        padding-top: 3%;
+        width: 90%;
+        padding-left: 0px;
+        margin: 5%;
+    }
+}
