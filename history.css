@@ -16,9 +16,8 @@ html {
 .header2 {
     min-height: 80vh;
     width: 100.5%;
-    background-image: url('https://cdn.discordapp.com/attachments/1090207758411898941/1090211459650297907/ford-shelby-mustang-4k-wallpaper-preview.png');
+    background-image: url('https://media.discordapp.net/attachments/1090207758411898941/1104829362638962708/Photo.png?width=1440&height=540');
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
     position: relative;
 }
@@ -49,7 +48,7 @@ html {
     position: absolute;
     width: 250px;
     height: 3px;
-    background-color: crimson;
+    background-color: #102dd3;
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -81,8 +80,22 @@ html {
 }
 
 .about-col h1 {
-    font-size: 48px;
-    padding-top: 0;
+    font-size: 55px;
+    font-weight: 800;
+    color: black;
+    z-index: 1;
+}
+
+@media screen and (max-width: 900px) {
+    .about-col h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .about-col h1 {
+        font-size: 35px;
+    }
 }
 
 .about-col p {
@@ -106,21 +119,15 @@ html {
     cursor: pointer;
 }
 
-.hero-btn:hover {
-    border: 1px solide #f44336;
-    background: #f44336;
-    transition: 1s;
-}
-
 .red-btn {
-    border: 1px solid #f44336;
+    border: 1px solid #102dd3;
     background: transparent;
-    color: #f44336;
+    color: #102dd3;
 }
 
 .blue-btn {
-    border: 1px solid #f44336;
-    background-color: #f44336;
+    border: 1px solid #102dd3;
+    background-color: #102dd3;
     color: #fff;
 }
 
@@ -156,9 +163,7 @@ html {
     animation: scroll 40s linear infinite;
 }
 
-.slide-track:hover {
-    animation-play-state: paused;
-}
+
 
 @keyframes scroll {
     0% {
@@ -183,10 +188,6 @@ html {
 .galleria img {
     width: 100%;
     transition: transform 1s;
-}
-
-.galleria img:hover {
-    transform: translateZ(20px);
 }
 
 .slider::before,

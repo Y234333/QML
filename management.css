@@ -49,7 +49,7 @@ html {
     position: absolute;
     width: 250px;
     height: 3px;
-    background-color: crimson;
+    background-color: #102dd3;
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -93,9 +93,8 @@ html {
 }
 
 .tcontainer .tcard .tcontent .imgBx {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
+    width: 100%;
+    min-height: 275px;
     position: relative;
     margin-bottom: 20px;
     overflow: hidden;
@@ -108,35 +107,4 @@ html {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.tcontainer .tcard .tcontent .tcontentBx h4 {
-    color: #36187d;
-    font-size: 1.7rem;
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-.tcontainer .tcard .tcontent .tcontentBx h5 {
-    color: #6c758f;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-.tcontainer .tcard .tcontent .sci {
-    margin-top: 20px;
-}
-
-.tcontainer .tcard .tcontent .sci a {
-    text-decoration: none;
-    color: #6c758f;
-    font-size: 30px;
-    margin: 10px;
-    transition: color 0.4s;
-}
-
-.tcontainer .tcard .tcontent .sci a:hover {
-    color: #0196e3;
 }

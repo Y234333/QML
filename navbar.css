@@ -16,7 +16,7 @@ html {
 }
 
 .wrapper {
-    background: black;
+    background: rgba(0, 0, 0, 0.811);
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -80,7 +80,7 @@ nav .content .logo1 {
 
 .content .links li a:hover,
 .content .links li label:hover {
-    background: #580303;
+    background: #102dd3;
 }
 
 .wrapper .menu-icon {
@@ -101,9 +101,10 @@ nav .content .logo1 {
 }
 
 .btn1 button {
-    background: #ebe6b6;
-    color: black;
-    border: 3px solid #ebe6b6;
+    background: white;
+    color: #fff;
+    border: 3px solid #102dd3;
+    background-color: #102dd3;
     border-radius: 12px;
     padding: 8px 34px;
     /* TO MAKE THE BUTTON LONGER, MAYBE TRY LATER */
@@ -115,12 +116,6 @@ nav .content .logo1 {
 
 .btn1 li label {
     display: none;
-}
-
-.btn1:hover button {
-    color: black;
-    border: 3px solid #ad0404;
-    background-color: #ad0404;
 }
 
 .wrapper .mobile-link {
@@ -190,9 +185,9 @@ nav .content .logo1 {
 
 @media screen and (max-width: 900px) {
     .wrapper .mobile-link {
-        background: #ebe6b6;
+        background: #102dd3;
         color: transparent;
-        border: 3px solid #ebe6b6;
+        border: 3px solid #102dd3;
         border-radius: 30px;
         padding: 12px 34px;
         text-align: center;
@@ -287,10 +282,6 @@ nav .content .logo1 {
     .content .links #show-info:checked~ul {
         max-height: 100vh;
     }
-
-    /* .content .links #show-events:checked~ul {
-        max-height: 100vh;
-    } */
 
     .content .links ul li {
         margin: 7px 20px auto auto;

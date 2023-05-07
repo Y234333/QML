@@ -90,26 +90,16 @@ html {
 .hero-btn {
   display: inline-block;
   text-decoration: none;
-  color: white;
-  outline: 3px solid white;
-  outline-offset: 4px;
-  border: 3px solid white;
+  color: #000;
+  border: 3px solid #0088ff;
   padding: 12px 30px;
   border-radius: 12px;
   font-size: 13px;
-  background: transparent;
+  background: #0088ff;
   position: relative;
   cursor: pointer;
   font-weight: 600;
   transition: 0.5s ease-in-out;
-}
-
-.hero-btn:hover {
-  outline: 4px solid #ebe6b6;
-  outline-offset: -5px;
-  border: 3px solid #ebe6b6;
-  background: #ebe6b6;
-  color: black;
 }
 
 /* ------------------------------- ABOVE IS VIDEO SECTION OF HOME PAGE ------------------------------- */
@@ -152,7 +142,7 @@ html {
   margin-top: 50px;
   font-size: 55px;
   font-weight: 800;
-  color: darkblue;
+  color: #00008B;
   z-index: 1;
 }
 
@@ -206,7 +196,7 @@ html {
 .profile-details .job {
   font-size: 12px;
   font-weight: 600;
-  color: #4d4d4d;
+  color: #171c24;
 }
 
 /* .swiper-navBtn {
@@ -238,12 +228,6 @@ html {
 
   .btn2 button {
     font-size: 10px;
-  }
-  .hero-btn{
-    outline: 4px solid #ebe6b6;
-    border: 3px solid #ebe6b6;
-    background: #ebe6b6;
-    color: black;
   }
 }
 

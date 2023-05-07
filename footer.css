@@ -9,8 +9,8 @@ footer {
     margin-top: 80px;
     position: relative;
     width: 101%;
-    background: black;
-    color: rgb(180, 180, 180);
+    background: #000;
+    color: #fff;
     min-height: 32vh;
     padding: 20px 50px;
     /*   display: flex;
@@ -37,30 +37,30 @@ footer {
 
 .social_icon li a {
     font-size: 2em;
-    color: rgb(180, 180, 180);
+    color: #fff;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
 }
 
-#twitter:hover {
+#twitter {
     color: #1DA1F2;
 }
 
-#discord:hover {
+#discord{
     color: #7289da;
 }
 
-#instagram:hover {
+#instagram {
     color: #E1306C;
 }
 
-#youtube:hover {
+#youtube {
     color: #FF0000;
 }
 
 .footer .copyright {
-    color: rgb(180, 180, 180);
+    color: #fff;
     max-width: 40%;
     text-align: left;
     margin-top: 15px;
@@ -70,18 +70,13 @@ footer {
 
 .top {
     float: right;
-    color: rgb(180, 180, 180);
+    color: #0088ff;
     transition: all 0.5s ease;
     scroll-behavior: smooth;
 }
 
 .top-mobile {
     display: none;
-}
-
-.top:hover {
-    color: #ad0404;
-    transform: translateY(-10px);
 }
 
 .logos {
@@ -103,16 +98,6 @@ footer {
     display: inline-block;
 }
 
-#FORD,
-#MANA {
-    transition: all 0.5s ease;
-}
-
-#FORD:hover,
-#MANA:hover {
-    transform: translateY(-10px);
-}
-
 @media screen and (max-width: 500px) {
     .top {
         display: none;
@@ -121,8 +106,7 @@ footer {
     .top-mobile {
         display: flex;
         float: right;
-        color: rgb(180, 180, 180);
-        transition: all 0.5s ease;
+        color: #0088ff;
         scroll-behavior: smooth;
     }
 
