@@ -239,6 +239,13 @@ html {
   .btn2 button {
     font-size: 10px;
   }
+  .hero-btn{
+    outline: 4px solid #ebe6b6;
+    outline-offset: -5px;
+    border: 3px solid #ebe6b6;
+    background: #ebe6b6;
+    color: black;
+  }
 }
 
 @media screen and (max-width: 420px) {
