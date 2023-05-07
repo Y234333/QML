@@ -288,9 +288,9 @@ nav .content .logo1 {
         max-height: 100vh;
     }
 
-    .content .links #show-events:checked~ul {
+    /* .content .links #show-events:checked~ul {
         max-height: 100vh;
-    }
+    } */
 
     .content .links ul li {
         margin: 7px 20px auto auto;
