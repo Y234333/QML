@@ -187,7 +187,7 @@ html {
 
 .galleria img {
     width: 100%;
-    transition: transform 1s;
+    height: 100px;
 }
 
 .slider::before,

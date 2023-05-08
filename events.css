@@ -16,9 +16,8 @@ html {
 .header2 {
     min-height: 80vh;
     width: 100.5%;
-    background-image: url('https://cdn.discordapp.com/attachments/1090207758411898941/1090211459650297907/ford-shelby-mustang-4k-wallpaper-preview.png');
+    background-image: url('https://cdn.discordapp.com/attachments/1090207758411898941/1105126785269637131/Events.png');
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
     position: relative;
 }
@@ -49,7 +48,7 @@ html {
     position: absolute;
     width: 250px;
     height: 3px;
-    background-color: crimson;
+    background-color: #102dd3;
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -252,12 +251,12 @@ html {
 
 @media screen and (max-width: 900px) {
     .title h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 }
 
 @media screen and (max-width: 420px) {
     .title h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 }
