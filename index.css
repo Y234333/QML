@@ -45,23 +45,23 @@ html {
   transform: translate(-50%, -50%);
 }
 
- /* #videoBG {
+#videoBG {
    position: absolute;
    z-index: -2;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
- } */
+}
 
-/* @media(max-width: 767px){           
+@media(max-width: 767px){           
       #videoBG{
           display: none;
       }
-      body{
-          background: url('https://cdn.discordapp.com/attachments/995796910537457735/996529772760928326/poster.png');
+      .header{
+          background: url('https://cdn.discordapp.com/attachments/1090207758411898941/1105139823263613020/main.png');
           background-size: cover;
       }
-} */
+}
 
 .text-box {
   width: 90%;
