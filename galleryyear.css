@@ -83,3 +83,11 @@ html {
 .gallery-images img {
     width: 100%;
 }
+.header-img  img{
+    min-height: 80vh;
+    max-height: 85vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
