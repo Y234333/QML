@@ -48,7 +48,7 @@ html {
     position: absolute;
     width: 250px;
     height: 3px;
-    background-color: crimson;
+    background-color: #102dd3;
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -83,6 +83,7 @@ html {
 .gallery-images img {
     width: 100%;
 }
+
 .header-img  img{
     min-height: 80vh;
     max-height: 85vh;

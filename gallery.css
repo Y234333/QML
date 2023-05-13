@@ -48,7 +48,7 @@ html {
     position: absolute;
     width: 250px;
     height: 3px;
-    background-color: crimson;
+    background-color: #102dd3;
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -85,11 +85,11 @@ html {
 
 .gallery a {
     color: black;
+    transition: 0.5s;
 }
 
 .gallery a:hover {
     color: red;
-    transition: 0.5s;
 }
 
 .arrow {
