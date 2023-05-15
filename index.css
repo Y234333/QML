@@ -172,7 +172,7 @@ html {
 }
 
 .card .image-box {
-  height: 200px;
+  height: 150px;
 }
 
 .card .image-box img {
@@ -229,6 +229,9 @@ html {
 
   .home-news h1 {
     font-size: 35px;
+  }
+  .card .image-box {
+    height: 200px;
   }
 }
 
