@@ -13,15 +13,31 @@ html {
     overflow-x: hidden;
 }
 
-.header2 {
+.header2{
     min-height: 80vh;
     width: 100.5%;
-    background-image: url('https://cdn.discordapp.com/attachments/1090207758411898941/1090211459650297907/ford-shelby-mustang-4k-wallpaper-preview.png');
     background-position: center;
     background-size: cover;
     position: relative;
 }
-
+#second-pic {
+    background-image: url('https://cdn.discordapp.com/attachments/1105174871857696899/1105208810030776401/Anniversary_2_2022_ediet_part_1-1X9A4225.jpg');
+}
+#cancer-pic {
+    background-image: url('https://media.discordapp.net/attachments/1105220575997198346/1105220843136618546/mcfifa2022_ed_2-1X9A3178.jpg?width=718&height=478');
+}
+#mustang-ani-pic {
+    background-image: url('https://media.discordapp.net/attachments/1105228545388728401/1105231143172837376/mustang_gulf_ev_2_ed-OL2A7104.jpg?width=718&height=478');
+}
+#qcs-pic {
+    background-image: url('https://media.discordapp.net/attachments/1105226269957824522/1105227067873820692/New_folder-1X9A5773.jpg?width=718&height=478 ');
+}
+#worldcup-pic {
+    background-image: url("https://cdn.discordapp.com/attachments/1105123304177668217/1105616691855101962/mustang_mawater-1X9A8415.jpg");
+}
+#sportsday-pic {
+    background-image: url('https://media.discordapp.net/attachments/1105228545388728401/1105230085964959955/MUSTANG_GULF_ED-OL2A6335.jpg?width=718&height=430');
+}
 .text-box {
     width: 90%;
     color: #fff;
@@ -82,13 +98,4 @@ html {
 
 .gallery-images img {
     width: 100%;
-}
-
-.header-img  img{
-    min-height: 80vh;
-    max-height: 85vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
 }

@@ -16,10 +16,11 @@ html {
 .header2 {
     min-height: 80vh;
     width: 100.5%;
-    background-image: url('https://cdn.discordapp.com/attachments/1090207758411898941/1090211459650297907/ford-shelby-mustang-4k-wallpaper-preview.png');
+    background-image: url('https://media.discordapp.net/attachments/1105228545388728401/1105230203153821716/MUSTANG_GULF_ED-OL2A6495.jpg?width=718&height=478');
     background-position: center;
     background-size: cover;
     position: relative;
+    text-align: center;
 }
 
 .text-box {
@@ -107,12 +108,4 @@ html {
         padding-left: 0px;
         margin: 5%;
     }
-}
-.header-img  img{
-    min-height: 80vh;
-    max-height: 85vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
 }
