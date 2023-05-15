@@ -99,3 +99,8 @@ html {
 .gallery-images img {
     width: 100%;
 }
+@media(max-width: 700px) {
+    .headergallery {
+        padding: 50px 10px 0px 25px;
+    }
+}
