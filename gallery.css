@@ -14,6 +14,8 @@ html {
 }
 
 .header2 {
+    margin: 0;
+    padding: 0;
     min-height: 80vh;
     width: 100.5%;
     background-image: url('https://media.discordapp.net/attachments/1105228545388728401/1105231145756528670/mustang_gulf_ev_2_ed-OL2A7324.jpg?width=718&height=478');
